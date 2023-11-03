@@ -15,7 +15,9 @@ Puedes cambiar el algoritmo de visualización del grafo reemplazando nx.kamada_k
 
 
 Utiliza el algoritmo de disposición "Spring" para la visualización del grafo.<br>
+```bash
 pos = nx.spring_layout(sistema_peliculas.G)
+```
 
 ## Tipos de Layout 
 1. spring_layout(G)
